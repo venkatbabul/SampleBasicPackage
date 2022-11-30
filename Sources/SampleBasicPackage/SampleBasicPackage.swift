@@ -1,7 +1,7 @@
-public class SampleBasicPackage{
-    public init (){}
-    public func sample(){
-        print("SAMPLE!")
+public struct SampleBasicPackage{
+    var text = "Hello World"
+    
+    public func HelloWorldToYou() -> String{
+        return "Hello To You!"
     }
 }
-
