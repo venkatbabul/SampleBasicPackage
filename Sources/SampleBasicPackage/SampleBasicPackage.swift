@@ -1,6 +1,7 @@
-public struct SampleBasicPackage {
-    public private(set) var text = "Hello, World!"
-
-    public init() {
+public class SampleBasicPackage{
+    public init (){}
+    public func sample(){
+        print("SAMPLE!")
     }
 }
+
